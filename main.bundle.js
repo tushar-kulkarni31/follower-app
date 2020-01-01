@@ -523,7 +523,7 @@ NavbarComponent = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
 var environment = {
-    production: true,
+    production: false,
     navBarBackgroundColor: 'purple'
 };
 //# sourceMappingURL=environment.js.map
