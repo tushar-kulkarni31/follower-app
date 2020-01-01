@@ -8,7 +8,10 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "prod-deploy": "ng build --prod --base-href='https://tushar-kulkarni31.github.io/follower-app/' && sudo ngh",
+    "test-deploy": "ng build --env=test --base-href='https://tushar-kulkarni31.github.io/follower-app/' && sudo ngh",
+    "dev-deploy": "ng build --env=dev --base-href='https://tushar-kulkarni31.github.io/follower-app/' && sudo ngh"
   },
   "private": true,
   "dependencies": {
