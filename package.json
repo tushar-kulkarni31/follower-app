@@ -10,8 +10,9 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "prod-deploy": "ng build --prod --base-href='https://tushar-kulkarni31.github.io/follower-app/' && sudo ngh",
-    "test-deploy": "ng build --env=test --base-href='https://tushar-kulkarni31.github.io/follower-app/' && sudo ngh",
-    "dev-deploy": "ng build --env=dev --base-href='https://tushar-kulkarni31.github.io/follower-app/' && sudo ngh"
+    "test-deploy": "ng build --test --base-href='https://tushar-kulkarni31.github.io/follower-app/' && sudo ngh",
+    "qa-deploy": "ng build --qa --base-href='https://tushar-kulkarni31.github.io/follower-app/' && sudo ngh",
+    "dev-deploy": "ng build --base-href='https://tushar-kulkarni31.github.io/follower-app/' && sudo ngh"
   },
   "private": true,
   "dependencies": {
