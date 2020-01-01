@@ -529,7 +529,7 @@ NavbarComponent = __decorate([
 // The file contents for the current environment will overwrite these during build.
 var environment = {
     production: false,
-    navBarBackgroundColor: 'blue'
+    navBarBackgroundColor: 'red'
 };
 //# sourceMappingURL=environment.js.map
 
